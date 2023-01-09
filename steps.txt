@@ -1,6 +1,7 @@
 scala-sbt download
 enter sbt
-spark-master.sh
+start-master.sh
+localhost:8080
 spark-worker.sh spark:...
 sbt package
 spark-submit –class 'ExceptionHandlingTest' –master 'spark://....' \target/scala-2.12/exceptionhandling-2.12-1.0.jar
